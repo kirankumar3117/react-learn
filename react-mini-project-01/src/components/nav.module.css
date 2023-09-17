@@ -1,0 +1,31 @@
+.nav{
+    display: flex;
+    flex-direction: row;
+    width:95%;
+    margin-left: 2.5%;
+    justify-content: space-between;
+    font-family: sans-serif;
+    margin-top: 25px;
+}
+.nav>div{
+    display: flex;
+    gap:20px;
+}
+.nav>div>div{
+    cursor: pointer;
+}
+.nav>div:nth-child(1)>div:nth-child(2)>input{
+    border-radius: 7px;
+    outline: none;
+    height: 30px;;
+    border: none;
+    margin-top: -7px;
+}
+a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: rgb(174, 174, 235);
+  }
